@@ -1,3 +1,6 @@
+echo -e "${BGREEN}IN TTY${NC}"
+sudo zypper -n in -tpackage --no-recommends foot tmux;
+
 mkdir -p ~/.config/foot;
 cp -ur ~/.setup-dots/dots/tty/foot/* ~/.config/foot;
 
