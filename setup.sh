@@ -1,4 +1,5 @@
-echo -e "${BGREEN}IN TTY${NC}"
+#!/usr/bin/env bash
+
 sudo zypper -n in -tpackage --no-recommends foot tmux;
 
 mkdir -p ~/.config/foot;
